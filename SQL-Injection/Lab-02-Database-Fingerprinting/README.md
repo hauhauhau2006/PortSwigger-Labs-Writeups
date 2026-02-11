@@ -1,9 +1,9 @@
-# 💉 SQL Injection: Listing database contents on Non-Oracle databases
+#  SQL Injection: Listing database contents on Non-Oracle databases
 
 **Lab Description:** This lab contains an SQL injection vulnerability in the product category filter. The application runs on a PostgreSQL database.
 
 ## 1. Reconnaissance (Trinh sát)
-* **Detection:** Appended `'` to the URL parameter `category`.
+* **Detection:** Appended `'` to the URL parameter `category`.(same previous lab)
     * Result: `Internal Server Error` (500).
     * Conclusion: Likely SQL Injection.
 * **Database Identification:**
@@ -16,9 +16,9 @@
 **Step 1: Determine number of columns**
 Payload: `' ORDER BY 1--` (Success), `' ORDER BY 2--` (Success), `' ORDER BY 3--` (Error).
 -> **Result:** 2 Columns.
-
+Basically, format of this lab is as same as previous lab.
 **Step 2: Find table names**
-Since it's PostgreSQL, I queried `information_schema.tables`.
+Because it's PostgreSQL, I use `information_schema.tables`.
 Payload:
 ```sql
 ' UNION SELECT table_name, NULL FROM information_schema.tables WHERE table_schema='public'--
