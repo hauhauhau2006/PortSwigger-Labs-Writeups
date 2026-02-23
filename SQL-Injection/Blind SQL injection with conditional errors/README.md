@@ -26,6 +26,7 @@ TrackingId=xyz' || (SELECT CASE WHEN (SUBSTR(password,1,1)='a') THEN TO_CHAR(1/0
 - attack type: I use cluster bomb to attack 2 different variables
 - payload set 1: type "number" from 1-> 20 step : 1 (because length of password is 20)
 - payload set 2: simple list a-z,0-9
+  
 **After setting up, I find character show 500 and the position on the left*
 
   ![Intruder Results](Screenshot%202026-02-23%20203059.png)
