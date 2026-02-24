@@ -1,4 +1,4 @@
-## Lab: Determining number of columns (quite eassy)
+## Lab: Determining number of columns 
 **Goal:** The application filters products by category. We need to determine the number of columns returned by the query.
 * **Analysis Steps:**
   1. **Inject `ORDER BY`:**
