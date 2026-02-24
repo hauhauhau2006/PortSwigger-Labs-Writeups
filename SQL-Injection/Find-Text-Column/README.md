@@ -2,7 +2,7 @@
 
 **Lab Description:** The application allows SQL injection in the product category filter. The goal is to determine which column allows text data and retrieve a specific string provided by the database.
 
-## 1. Reconnaissance (Trinh sát)
+## 1. Reconnaissance
 * **Goal:** Make the database retrieve the string: `'UH70bT'` (Note: This string changes every time).
 * **Step 1: Determine number of columns**
   * Payload: `' ORDER BY 1--`, `' ORDER BY 2--`, `' ORDER BY 3--` (All Success).
