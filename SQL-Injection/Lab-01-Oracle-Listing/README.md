@@ -3,7 +3,7 @@
 **Lab Description:** This lab contains an SQL injection vulnerability in the product category filter. The application runs on an **Oracle** database.
 
 According to document, I realize that form of oracle is quite diferent to others.
-## 1. Reconnaissance (Trinh sát)
+## 1. Reconnaissance 
 * **Detection:** Test `'` to the URL parameter `category`.(any categorizes and same to any type of labs like this)
     * Result: `Internal Server Error` (500).
 * **Database Identification:**
