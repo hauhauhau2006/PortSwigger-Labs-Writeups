@@ -29,6 +29,8 @@ TrackingId=dZv5SyaRIWu4wZ5c' %3b SELECT CASE WHEN (username='administrator' AND 
 
 ## After doing that I find character and it's position that have response time > 10000 and find actual password's administrator 
 
+![Intruder Results](Screeenshot%2002-24-2026&20224122.png)
+
 
 
  
