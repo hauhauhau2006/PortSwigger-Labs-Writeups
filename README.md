@@ -19,7 +19,7 @@ Welcome to my security research repository!
 
 ```text
 ├── SQL-Injection/
-│   ├── Lab-01-Retrieve-Hidden-Data/
-│   ├── Lab-02-Database-Fingerprinting/  <-- (Bài Oracle/Postgres vừa làm)
-│   └── scripts/                         <-- Python automation tools
+│   ├── lab1
+│   ├── lab2
+│   └── lab3......
 └── README.md
