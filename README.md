@@ -11,9 +11,9 @@ Welcome to my security research repository!
 
 | Category | Labs Solved | Key Skills Learned |
 |----------|:-----------:|--------------------|
-| **SQL Injection** | 15 | `UNION Based`, `Database Fingerprinting`, `Data Exfiltration` |
-| **Authentication** | 0 | |
-| **Business Logic** | 0 |  |
+| **SQL Injection** |  | `UNION Based`, `Database Fingerprinting`, `Data Exfiltration` |
+| **Authentication** | | |
+| **Business Logic** | |  |
 
 ##  Repository Structure
 
