@@ -23,3 +23,6 @@ sql
 *CTR-U to prevent special characters from breaking the HTTP request structure*
 
 *Send Repeater, if it responses 200 OK -> success*
+
+![Intruder Results](Screenshot%202026-02-25%20123806.png)
+
