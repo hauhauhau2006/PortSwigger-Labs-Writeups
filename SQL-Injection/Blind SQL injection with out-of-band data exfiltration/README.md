@@ -16,10 +16,15 @@ sql
 ```
 **With this lab I use https://app.interactsh.com/**
 
+![Intruder Results](Screenshot%202026-02-25%20200306.png)
 
 *We add payload then CTR+U(like previous lab)*
 
+
 **Ensuring burp return 200 OK -> Done**
+
+
+![Intruder Results](Screenshot%202026-02-25%20201033.png)
 
 
 
