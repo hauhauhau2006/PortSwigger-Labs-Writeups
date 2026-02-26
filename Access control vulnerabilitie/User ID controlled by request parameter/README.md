@@ -8,4 +8,4 @@
 
 **The server only checks if a session is valid, but fails to check if the session owner is authorized to view id**
 
-![Intruder Results](Screenshot%202026-02-26%20
+![Intruder Results](Screenshot%202026-02-26%20203232.png)
