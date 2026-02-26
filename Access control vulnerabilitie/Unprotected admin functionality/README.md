@@ -9,3 +9,5 @@
 **Replace /robots.txt -> /administrator-panel**
 
 **The reason we can go straight like that is because lab is unprotected**
+
+![Intruder Results](Screenshot%202026-02-26%20100437.png)
