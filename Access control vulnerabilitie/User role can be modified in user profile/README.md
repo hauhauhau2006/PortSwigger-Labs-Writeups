@@ -17,6 +17,10 @@
 "roleid" :    2
 ```
 
+![Intruder Results](Screenshot%202026-02-26%20152703.png)
+
+
+
 
 **I change roleid =1 -> 2 ( 1 normally known as user )**
 
