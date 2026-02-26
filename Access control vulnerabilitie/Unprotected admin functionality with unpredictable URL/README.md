@@ -14,6 +14,8 @@
 
  *Then copy URL we found and paste*
 
+ ![Intruder Results](Screenshot%202026-02-26%20113346.png)
+
  
 
  
