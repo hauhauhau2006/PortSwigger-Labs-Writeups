@@ -20,4 +20,4 @@
 **"><svg ensure to exit source code 'a'**
 
 
-![Intruder Results](Screenshot%202026-02-26%20231423.png)
+![Intruder Results](Screenshot%202026-02-26%20231413.png)
