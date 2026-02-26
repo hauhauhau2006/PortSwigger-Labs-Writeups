@@ -19,7 +19,7 @@
 *Cookie: change admin = false->true*
 
 
-**We will recive a url contains account carlos user**
+**We will recive a url contains account carlos user to delete (Because now we are admin)**
 
 
 **Paste it** 
@@ -29,6 +29,8 @@ GET /admin/delete?username=carlos
 ```
 
 **Send->Done**
+
+![Intruder Results](Screenshot%202026-02-26%20125243.png)
 
 
 
