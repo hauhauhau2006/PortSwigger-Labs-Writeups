@@ -15,6 +15,7 @@ Welcome to my security research repository!
 | **Authentication** | | |
 | **Business Logic** | |  |
 | **Access control vulnerabilitie**| |   |
+|**Cross-Site Scripting**|  |   |
 
 ##  Repository Structure
 
