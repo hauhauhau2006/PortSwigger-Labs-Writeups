@@ -53,3 +53,5 @@ Implement an Allow-list (Whitelist): Ensure the stockApi parameter only accepts 
 Disable HTTP Redirections: Configure the backend HTTP client to drop or strictly validate unexpected redirects to prevent SSRF escalation.
 
 Adopt Zero Trust Architecture: Enforce strict authentication and authorization checks for sensitive endpoints (like the Admin panel), regardless of whether the request originates from the external network or localhost.
+
+![Intruder Results](Screenshot%202026-06-04%20130546.png)
