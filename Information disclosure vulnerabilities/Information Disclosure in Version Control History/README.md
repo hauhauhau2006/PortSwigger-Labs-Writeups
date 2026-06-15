@@ -36,14 +36,14 @@ git show ea86bf5ad50939e0a4061578c11533e91f466e39
 
 **Step 8: Access the admin panel and delete the target user `(carlos)` to successfully complete the lab.**
 
-3. Root Cause Analysis
+### 3. Root Cause Analysis
 Web Server Misconfiguration: The web server (e.g., Apache, Nginx) was not configured to block access to hidden directories (folders starting with a dot, like .git). Consequently, the server treated the version control files as static assets and served them to any requester.
 
 Poor Secrets Management: The developer temporarily hardcoded a production password directly into the configuration file and committed it to the repository. Even though the developer later changed the code to use environment variables (env('ADMIN_PASSWORD')), the Git architecture retains a permanent historical snapshot of all previous file states.
 
-4. Remediation
+### 4. Remediation
 Block Access to Hidden Directories: Explicitly configure the web server to deny all external access to .git folders and other hidden files.
-
+```
 For Nginx:
 
 Nginx
@@ -57,3 +57,4 @@ RedirectMatch 404 /\.git
 Sanitize Deployment Processes: Never deploy the .git folder to the production web root. Use a robust CI/CD pipeline that builds the application and transfers only the compiled/necessary files to the production environment.
 
 Never Commit Secrets: Passwords, API keys, and cryptographic tokens must never be hardcoded into the source code. Utilize .gitignore to prevent configuration files from being tracked, and rely on secure vault services or environment variables for secret injection. If a secret is accidentally committed, it must be considered compromised, immediately revoked, and rotated.
+```
