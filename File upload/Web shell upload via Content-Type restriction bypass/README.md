@@ -82,3 +82,8 @@ Strict extension whitelisting.
 Validating actual file contents (Magic bytes/File signatures).
 
 Storing uploaded files in a directory where execute permissions are disabled.
+
+<img width="1717" height="1002" alt="image" src="https://github.com/user-attachments/assets/c6bc6dd6-6ebb-4104-bee3-87635c1e11be" />
+<img width="1714" height="985" alt="image" src="https://github.com/user-attachments/assets/2fec342a-14b4-4432-ba30-af072e8d5251" />
+
+
