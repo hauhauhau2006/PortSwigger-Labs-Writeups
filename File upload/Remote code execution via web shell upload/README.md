@@ -67,3 +67,4 @@ Because the file retains its .php extension, the backend web server (e.g., Apach
 
 💡 Key Takeaway
 Validation must happen on the server side using robust methods (like checking file signatures/magic bytes and restricting execution directories). Never trust user-controlled inputs, especially HTTP headers like Content-Type, as they can be trivially manipulated by attackers.
+<img width="1713" height="916" alt="image" src="https://github.com/user-attachments/assets/f98e13bd-c625-4878-b680-4b16c72a795f" />
