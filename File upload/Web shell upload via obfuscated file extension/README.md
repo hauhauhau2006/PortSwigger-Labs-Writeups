@@ -69,3 +69,9 @@ Sanitize all user-supplied filenames by stripping null bytes (\0 or %00) and oth
 Strictly validate the file type using a whitelist approach, combined with server-side Magic Bytes/File Signature inspection, rather than relying solely on the file extension.
 
 Never use the original filename provided by the user. Generate a randomized, safe filename (e.g., using a UUID) on the server side to store the file securely.
+
+<img width="1719" height="1009" alt="image" src="https://github.com/user-attachments/assets/feb92428-b8ea-4d71-8b43-d69df9fccd1d" />
+<img width="1720" height="1012" alt="image" src="https://github.com/user-attachments/assets/3bfe6097-7ee0-4673-b847-2783b31946f4" />
+
+
+
